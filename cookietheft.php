@@ -1,5 +1,9 @@
 <?php 
-	$con = mysqli_connect("localhost","root","","attacker");
+	$dhost = "localhost";
+	$duser = "root";
+	$dpass = "";
+	$dbase = "attacker";
+	$con = mysqli_connect($dhost,$duser,$dpass,$dbase);
 	// Check connection
 	if (mysqli_connect_errno()) {
 		echo "Failed to connect to MySQL: ".mysqli_connect_errno();
@@ -19,7 +23,5 @@
 <head>
 	<title></title>
 </head>
-<body>
-	<script type="text/javascript" src=""></script>
-</body>
+<body></body>
 </html>
